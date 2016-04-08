@@ -1,0 +1,6 @@
+parameters:
+    ovh.send.sms.service.class: ovhSmsBundle\service\sendSmsService
+services:
+     send_sms_service:
+        class: %ovh.send.sms.service.class%
+        arguments: ['@service_container']

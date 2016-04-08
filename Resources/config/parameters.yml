@@ -1,0 +1,17 @@
+parameters:
+  ovh_params:
+    wsdl_root: web/soapi/soapi-re-1.63.wsdl
+    session_params:
+      serviceName: sms-ds201036-1
+      login: ds201036-ovh
+      password: Frizbee2015
+      country: fr
+      sender: Frizbee
+    msg_params:
+      smsValidity: 2880  #The maximum time -in minute(s)- before the message is dropped
+      smsClass: 1  #The sms class the class is phone display
+      smsDeferred: 0 #The time -in minute(s)- to wait before sending the message
+      smsPriority: 1 #The priority of the message this case is high
+      smsCoding: 1 #The sms coding 1=> 7bits
+      tag: Frizbee
+      noStop: true
