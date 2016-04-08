@@ -17,18 +17,7 @@
         }
     },
 
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
 
-    "repositories": [{
-        "type": "package",
-        "package": {
-            "name": "ovh-sms-sender",
-            "version": "dev-master",
-            "source": {
-                "url": "https://github.com/themerrr/ovhSmsBundle",
-                "type": "git",
-                "reference": "origin/master"
-            }
-        }
-    }]
+
 }
