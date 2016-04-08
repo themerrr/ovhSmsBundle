@@ -18,7 +18,7 @@
 		{
    	 		$bundles = array(
              // ...
-            new sms-sender/ovh-smsBundle(),
+            new ovhSmsBundle\ovhSmsBundle()
        		 // ...
     	);
 	}
