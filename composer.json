@@ -15,9 +15,7 @@
         "psr-4": {
             "ovhSmsBundle\\": ""
         }
-    },
-
-    "minimum-stability": "dev"
+    }
 
 
 }
