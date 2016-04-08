@@ -44,4 +44,24 @@
         	tag: ""
         	noStop: true
 
+#### Usage :
+
+	public function indexAction()
+    {
+        $sms=$this->container->get('send_sms_service');
+        
+        // Set receiver's Number
+        $receiver="+21652989551";
+        
+        //set message
+        $message="bonjour";
+        
+        //call the sendSms() function
+        $sms->sendSms($receiver,$message);
+
+        return $this->render('testOvhBundle:Default:index.html.twig');
+    }
+
+
+
 
