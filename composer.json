@@ -1,7 +1,7 @@
 {
     "name": "sms-sender/ovh-sms",
     "description": "send sms",
-    "keywords": ["ovh,sms,send"],
+    "keywords": ["ovh","sms","send"],
     "license": "MIT",
     "authors": [{
         "name": "Mabrouk Themer",
