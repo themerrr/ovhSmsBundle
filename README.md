@@ -50,20 +50,22 @@
 #### Usage :
 
 	public function indexAction()
-    {
-        $sms=$this->container->get('send_sms_service');
+    	{
+    		//...
         
-        // Set receiver's Number
-        $receiver="+21652989551";
+        	$sms=$this->container->get('send_sms_service');
         
-        //set message
-        $message="bonjour";
+        	// Set receiver's Number
+        	$receiver="+21652989551";
         
-        //call the sendSms() function
-        $sms->sendSms($receiver,$message);
-
-        return $this->render('testOvhBundle:Default:index.html.twig');
-    }
+        	//set message
+        	$message="bonjour";
+        
+        	//call the sendSms() function
+        	$sms->sendSms($receiver,$message);
+	
+		//...
+    	}
 
 
 
