@@ -3,7 +3,8 @@
    Send sms through ovh SOAP API
 
 #### Author :
-Themer MABROUK themermabrouk@proxym-it.com
+  Themer MABROUK <br>
+  themermabrouk@proxym-it.com
 
 ### Installation :
 
