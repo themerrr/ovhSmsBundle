@@ -1,5 +1,5 @@
 {
-    "name": "ovh/sms-sender",
+    "name": "sms/sms-sender",
     "description": "send sms",
     "keywords": ["ovh,sms,send"],
     "license": "MIT",
