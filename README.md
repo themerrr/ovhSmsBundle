@@ -4,7 +4,7 @@
 
 #### Author :
   Themer MABROUK <br>
-  themermabrouk@proxym-it.com
+  themer.mabrouk@proxym-it.com
 
 ### Installation :
 
