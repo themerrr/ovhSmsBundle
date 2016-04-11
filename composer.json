@@ -1,7 +1,7 @@
 {
     "name": "send-sms/ovh-sms-bundle",
     "description": "send sms",
-    "keywords": ["ovh","sms","send"],
+    "keywords": ["ovh","sms","send","bundle","symfony","php","receiver","envoi","message"],
     "license": "MIT",
     "authors": [{
         "name": "Mabrouk Themer",
